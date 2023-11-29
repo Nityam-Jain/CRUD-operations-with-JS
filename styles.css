@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    display: flex;
+
+}
+/* registration page container */
+.container {
+    position: relative;
+    min-height: 100%;
+    width: 23%;
+    background-color: white;
+    flex-wrap: wrap;
+    margin: 20px 2px;
+    padding: 20px 2px;
+    border-radius: 10px;
+    
+    
+
+    
+}
+.container>header{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.container>form{
+    position: relative;
+    min-height: 570px;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+.inputfields{
+    margin-left: 2px ;
+    padding: 15px 0px;
+    font-size: 18px;
+  
+}
+#fname{
+  font-size: 14px;
+  font-weight: 300;
+  height: 25px;
+  border-radius: 3px;
+}
+#fnameerror{
+    margin: 5px 10px;
+    color: red;
+    font-size: 14px;
+}
+#lname{
+    font-size: 14px;
+    font-weight: 300;
+    height: 25px;
+}
+#lnameerror{
+    margin: 5px 10px;
+    color: red;
+    font-size: 14px;
+}
+  #ftname{
+    font-size: 14px;
+    font-weight: 300;
+    
+    height: 25px;
+    width: 170px;
+ }
+ #ftnameerror{
+    margin: 5px 10px;
+    color: red;
+    font-size: 14px;
+}
+ #Emailid{
+    font-size: 14px;
+    font-weight: 300;
+    height: 25px;
+    width: 150px;
+ }
+ #emailerror{
+    margin: 5px 10px;
+    color: red;
+    font-size: 14px;
+}
+#emailValid{
+  margin: 5px 10px;
+    color: green;
+    font-size: 14px;
+}
+  #phoneno{
+    font-size: 14px;
+    font-weight: 300;
+    height: 25px;
+  }
+  #pherror{
+    margin: 5px 10px;
+    color: red;
+    font-size: 14px;
+}
+  #password{
+    font-size: 14px;
+    font-weight: 300;
+    height: 25px;
+  }
+  #passError{
+    margin: 5px 10px;
+    color: red;
+    font-size: 14px;
+}
+#genError{
+  margin: 5px 10px;
+  color: red;
+  font-size: 14px;
+}
+#subError{
+  margin: 5px 10px;
+  color: red;
+  font-size: 14px;
+}
+
+  #sumit{
+    
+    height: 40px;
+    width: 200px;
+    margin-left: 14%;
+    margin-bottom: 2px;
+    background-color: #b7dade;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #333;
+  }
+
+
+
+  /* curd app container */
+
+  
+.container2 {
+  position: relative;
+  min-height: 100%;
+  width: 76%;
+  background-color: white;
+  
+  margin: 20px 5px;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.container2>header{
+  margin-top: 1px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+}
+
+.container2>#tbl{
+  
+  width: 100%;
+  margin-bottom: 20px;
+  padding-right: 5px;
+
+}
+.container2>#tbl>#data-row{
+   text-align: center;
+   align-items: center;
+   background-color: rgb(178, 155, 127);
+
+}
+
+.container2>#tbl>#data{
+  background-color: beige;
+  height: 10px;
+  padding: 10px;
+  
+
+}
+.container2>tr{
+  height: 35px;
+  padding: 10px;
+  text-align: center;
+} 
+
+.edtbtn{
+  background-color: rgb(243, 42, 42);
+  margin-right: 5px;
+  padding: 4px 7px;
+  color: white;
+  border-radius: 3px;
+}
+
+.dltbtn{
+  background-color: rgb(243, 42, 42);
+  margin-right: 5px;
+  padding: 4px 10px;
+  color: white;
+  border-radius: 3px;
+}
+
+
+  
